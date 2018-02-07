@@ -1,0 +1,72 @@
+.body-background{
+    background: url(../images/100.jpg);
+    width: 100%;
+}
+
+body {
+	background-color: #eee;
+}
+.classP {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+td .classP {
+    margin-left: 40px; /* Отступ слева */
+}
+
+.classH {
+    text-align: center;
+    background: #2f2c2c; !important;
+    color: #e4d4d4;
+    line-height: 100%;
+    font-size: 36px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px 0;
+}
+
+pre{
+	background-color: rgba(0, 87, 184);
+    width: 65%;
+    height: 130px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+	font-size: 100%;
+}
+
+.layer {
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 100%; /* Ширина блока */
+    height: 382px; /* Высота блока */
+   }
+
+
+
+.mesage_error {
+    text-align: center;
+    color: #f00;
+    background: hsla(0, 0%, 100%, 0.2);
+
+    border-radius: 4px;
+    font-size: 16px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    width: 100%;
+}
+
+.block_for_messages {
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    width: 100%;
+}
+
+.Textclass {
+    color: #ffffff;
+    text-shadow: 0 0 20px #000000;
+    background: #000000;
+    opacity: 0.8; /* Полупрозрачный фон */
+}
